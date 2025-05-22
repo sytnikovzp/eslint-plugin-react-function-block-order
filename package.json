@@ -1,0 +1,43 @@
+{
+  "name": "eslint-plugin-react-function-block-order",
+  "version": "0.1.0",
+  "description": "ESLint plugin to enforce order of blocks in React functional components",
+  "main": "index.js",
+  "type": "commonjs",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "react",
+    "function",
+    "block",
+    "order",
+    "structure"
+  ],
+  "author": "Alexandr Sytnikov <sytnikov.zp@gmail.com>",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sytnikovzp/eslint-plugin-react-function-block-order.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sytnikovzp/eslint-plugin-react-function-block-order/issues"
+  },
+  "homepage": "https://github.com/sytnikovzp/eslint-plugin-react-function-block-order#readme",
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "mocha": "^11.4.0"
+  }
+}
